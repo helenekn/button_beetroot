@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Form</title>
+      <link rel="stylesheet" href="./css/style.css" />
+   </head>
+   <body>
+      <form action="#" class="forms">
+         <div class="field">
+            <label for="name">Повне ім'я</label>
+            <input type="text" name="name" id="name" />
+         </div>
+         <div class="field">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+         </div>
+         <div class="field">
+            <label for="password">Пароль</label>
+            <input type="password" name="password" id="password" />
+         </div>
+         <div class="field">
+            <label for="password_check">Пароль ще раз</label>
+            <input type="password" name="password_check" id="password_check" />
+         </div>
+         <div class="field">
+            <label class="gender">Cтать</label>
+            <label class="custom-radio">
+               <input type="radio" name="gender" value="male" /><span
+                  >чоловіча</span
+               >
+            </label>
+            <label class="custom-radio">
+               <input type="radio" name="gender" value="female" /><span
+                  >жіноча</span
+               >
+            </label>
+         </div>
+         <div class="field">
+            <label for="age">Вік</label>
+            <input type="number" name="age" id="name" />
+         </div>
+         <div>
+            <select name="course">
+               <option selected>Виберіть курс</option>
+               <option value="Front-end">Front-end</option>
+               <option value="Back-end">Back-end</option>
+               <option value="Python">Python</option>
+               <option value="Photoshop">Photoshop</option>
+            </select>
+         </div>
+         <div>
+            <label for="address"></label>
+            <textarea
+               name="address"
+               id="address"
+               cols="30"
+               rows="10"
+               placeholder="Країні, регіон, місто/селище, вулиця"
+            ></textarea>
+         </div>
+         <div>
+            <label>
+               <input type="checkbox" name="сonsent" /><span
+                  >Я погоджуюсь з обробкою персональних даних</span
+               >
+            </label>
+         </div>
+         <div class="buttons">
+            <button type="reset">Очистити форму</button>
+            <button type="submit">Зареєструватися</button>
+         </div>
+      </form>
+   </body>
+</html>
